@@ -70,7 +70,7 @@ existing lower-reading and large-jump checks still apply.
 
 ```bash
 cd backend
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+python -m venv .venv && source .venv/bin/activate      # Windows: .venv\\Scripts\\activate
 pip install -r requirements.txt
 cp .env.example .env                                   # change SECRET_KEY before real use
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
@@ -165,3 +165,7 @@ Colours live in `ui/theme/Theme.kt`. Headings use the system serif; body text us
 1. Run the backend test suite and validate all three exported models with fresh, held-out meter photographs on the target machine. The Android scan button and authenticated API route are already connected; AI results remain suggestions until the landlord reviews and saves them.
 2. M-Pesa (Daraja) so bills are marked paid automatically instead of by the landlord.
 3. A short in-app tour and a Swahili translation of the strings.
+
+## Project documentation
+
+- [Final Development Setup Guide](docs/FINAL_SETUP_GUIDE.md) — Windows/Python 3.11 backend setup, Android connectivity, demo accounts, AI model setup, troubleshooting and verification checklist.
