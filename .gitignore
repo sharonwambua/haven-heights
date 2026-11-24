@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.env
+*.db
+backend/uploads/
+.venv/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+.idea/
+*.iml
+
+# Secrets and private configuration
+*.jks
+*.keystore
+google-services.json
+secrets.properties
+
+# Android / Gradle
+.gradle/
+build/
+captures/
+
+# Python
+__pycache__/
+*.py[cod]

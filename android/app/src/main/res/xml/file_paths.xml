@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="meter_photos" path="meter/" />
+    <cache-path name="lease_files" path="lease/" />
+</paths>

@@ -1,0 +1,11 @@
+{
+  "best_threshold": 0.8,
+  "orientation_cnn_enabled": true,
+  "segment_size": 256,
+  "crop_height": 64,
+  "crop_width": 256,
+  "digit_height": 64,
+  "digit_width": 32,
+  "digit_positions": 8,
+  "decimal_places": 3
+}
